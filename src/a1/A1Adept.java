@@ -50,7 +50,7 @@ public class A1Adept {
 				smallestCost = custTotal;
 				smallestCust = fullName;
 			}
-			else if (smallestCost == 0.0) {
+			if (smallestCost == 0.0) {
 				smallestCost = custTotal;
 				smallestCust = fullName;
 			}

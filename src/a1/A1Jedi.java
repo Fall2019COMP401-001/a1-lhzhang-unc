@@ -45,7 +45,7 @@ public class A1Jedi {
 				//Print output
 				for (Map.Entry<String,double[]> entry : itemMap.entrySet())  
 		            System.out.println((((int)entry.getValue()[1] == 0) ? "No" : (int)entry.getValue()[1])
-		            		+ " Customers bought " + (((int)entry.getValue()[1] == 0) ? "" : (int)entry.getValue()[2] + " ")
+		            		+ " customers bought " + (((int)entry.getValue()[1] == 0) ? "" : (int)entry.getValue()[2] + " ")
 		            		+ entry.getKey());
 	}
 }
